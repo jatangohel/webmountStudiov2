@@ -1,0 +1,480 @@
+@font-face
+{
+    font-family: Ubuntu-Bold;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-1/chauffeurprive/Ubuntu-Bold.ttf);
+}
+@font-face
+{
+    font-family: Ubuntu-Regular;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-1/chauffeurprive/Ubuntu-Regular.ttf);
+}
+/*=====================================
+=            Section COVER            =
+=====================================*/
+
+#section-cover:before
+{
+    background: -webkit-gradient(linear, left top, right top, from(#ce0c2a), to(#dc6c7f));
+    background: -webkit-linear-gradient(left, #ce0c2a 0%, #dc6c7f 100%);
+    background: -o-linear-gradient(left, #ce0c2a 0%, #dc6c7f 100%);
+    background: linear-gradient(90deg, #ce0c2a 0%, #dc6c7f 100%);
+}
+#section-cover .content .container-text .title svg
+{
+    height: 50px;
+
+    fill: #fff;
+}
+#section-cover .content .container-text p
+{
+    color: #fff;
+}
+#section-cover .container-illu
+{
+    bottom: 17%;
+    width: 800px;
+}
+#section-cover .container-illu .car
+{
+    position:relative;
+    right: -20%;
+    -webkit-transition: transform 1s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease;
+         -o-transition: transform 1s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease;
+            -webkit-transition: opacity 1.8s ease, -webkit-transform 1s cubic-bezier(.390, .575, .565, 1.000);
+            transition: opacity 1.8s ease, -webkit-transform 1s cubic-bezier(.390, .575, .565, 1.000);
+            transition: transform 1s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease;
+            transition: transform 1s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease, -webkit-transform 1s cubic-bezier(.390, .575, .565, 1.000);
+    -webkit-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+            transform: translateX(10%);
+
+    opacity: 0;
+}
+#section-cover .container-illu .car.anim
+{
+    -webkit-transition-delay: 0.5s;
+            -o-transition-delay: 0.5s;
+       transition-delay: 0.5s;
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
+
+    opacity: 1;
+}
+#section-cover .container-illu img
+{
+    width: 100%;
+    filter: drop-shadow(0px 8px 20px rgba(0,0,0,0.5));
+}
+
+/*=====  End of Section COVER  ======*/
+
+
+/*=======================================
+=            Section DETAILS            =
+=======================================*/
+
+#section-details .wrapper .container-text-1 .text .pf:after
+{
+    background-color: #cf0a2d;
+}
+#section-details .wrapper .container-text-1 .text h4
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .text p
+{
+    color: #cf0a2d;
+}
+#section-details .wrapper .container-text-1 .link p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .link:after
+{
+    background-color: #2884f6;
+}
+
+#section-details .wrapper .container-text-2 .text .pf:after
+{
+    background-color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text h4
+{
+    color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .title h5
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content,
+#section-details .wrapper .container-mission .content .cdr.cdr-year,
+#section-details .wrapper .container-mission .content .cdr.cdr-role
+{
+    border-color: #d6d6d6;
+}
+#section-details .wrapper .container-mission .content .cdr .text h6
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content .cdr .text p
+{
+    color: #363f54;
+}
+
+/*=====  End of Section DETAILS  ======*/
+
+
+
+/*==========================================
+=            Section TYPOGRAPHY            =
+==========================================*/
+
+
+#section-typography:before
+{
+    width: 90%;
+    background-color: #eaeced;
+}
+#section-typography .illu
+{
+    position: absolute;
+    z-index: 1;
+
+    width: 300px;
+}
+#section-typography .container-title h2
+{
+    color: #363f54;
+}
+#section-typography .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-typography .container-title p
+{
+    color: #363f54;
+}
+#section-typography .container-text h3
+{
+    font-family: Ubuntu-Bold;
+
+    color: #363f54;
+}
+#section-typography .container-text p
+{
+    font-family: Ubuntu-Regular;
+
+    color: #363f54;
+}
+
+/*=====  End of Section TYPOGRAPHY  ======*/
+
+
+/*======================================
+=            Section COLORS            =
+======================================*/
+
+#section-colors .container-title h2
+{
+    color: #363f54;
+}
+#section-colors .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-colors .container-title p
+{
+    color: #363f54;
+}
+#section-colors .container-colors .wrapper
+{
+    display:         -webkit-box;
+    display:         -ms-flexbox;
+    display:         flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+#section-colors .container-colors .wrapper:nth-child(2)
+{
+    margin-top: 100px;
+}
+#section-colors .container-colors .colors
+{
+    display: inline-block;
+}
+#section-colors .container-colors .colors svg
+{
+    display: inline-block;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors svg
+{
+    width: 98px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors svg
+{
+    width: 62px;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(1) svg
+{
+    fill: #cf0a2d;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(2) svg
+{
+    fill: #2b2043;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(3) svg
+{
+    fill: #494998;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(1) svg
+{
+    fill: #00d865;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(2) svg
+{
+    fill: #5c5c76;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(3) svg
+{
+    fill: #87929b;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(4) svg
+{
+    fill: #eaeced;
+}
+
+
+#section-colors .container-colors .colors .text
+{
+    display: inline-block;
+
+    vertical-align: bottom;
+    margin-left: 13px;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors .text
+{
+    margin-left: 13px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors .text
+{
+    margin-left: 23px;
+}
+
+#section-colors .container-colors .colors .text .title
+{
+    font-family: National-Bold;
+    font-size: 16px;
+
+    margin-bottom: 5px;
+
+    color: #202020;
+}
+#section-colors .container-colors .colors .text .ref
+{
+    font-family: National-Regular;
+    font-size: 16px;
+
+    -webkit-transform: translateX(-26px);
+        -ms-transform: translateX(-26px);
+            transform: translateX(-26px);
+
+    opacity: .7;
+    color: #202020;
+}
+
+#section-colors .container-text .text .pf:after
+{
+    background-color: #363f54;
+}
+#section-colors .container-text .text h4
+{
+    color: #363f54;
+}
+#section-colors .container-text .text p
+{
+    color: #455194;
+}
+
+
+/*=====  End of Section COLORS  ======*/
+
+
+/*=======================================
+=            SECTION SCREENS            =
+=======================================*/
+
+#section-screens .bg
+{
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+#section-screens .container-screens .obj-1
+{
+    z-index: 3;
+    top: 40%;
+    right: -10%;
+
+    width: 260px;
+}
+#section-screens .container-screens .obj-2
+{
+    z-index: 1;
+    top: 70%;
+    left: -40%;
+
+    width: 415px;
+}
+#section-screens .wrapper-1
+{
+    padding-top: 28%;
+}
+#section-screens .wrapper-2:before
+{
+    width: 90%;
+    background-color: #eaeced;
+}
+
+#section-screens .wrapper-2 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-2 .container-title p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .content .container-text h3
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .content .container-text p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .container-obj
+{
+    top: 45%;
+    right: 0;
+
+    width: 350px;
+
+    -webkit-transform: translateX(19%);
+
+        -ms-transform: translateX(19%);
+
+            transform: translateX(19%);
+}
+#section-screens .wrapper-3 .content .obj-3
+{
+    top: 10%;
+    right: -40%;
+
+    width: 400px;
+}
+#section-screens .wrapper-4 .container-text p
+{
+    color: #363F54;
+}
+#section-screens .wrapper-3 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-3 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-3 .container-title p
+{
+    color: #363f54;
+}
+
+#section-screens .wrapper-4 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-4 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-4 .container-title p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-4 .content .obj-4
+{
+    top: -8%;
+    right: 0;
+
+    width: 260px;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+#section-screens .wrapper-4 .content .anim-obj-5
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 300px;
+
+    -webkit-transform: translate(50%, 50%);
+        -ms-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+}
+#section-screens .wrapper-4 .content .obj-5
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .content .anim-obj-6
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 33%;
+    left: -10%;
+
+    width: 180px;
+}
+#section-screens .wrapper-4 .content .obj-6
+{
+    position: relative;
+
+    width: 100%;
+}
+
+/*=====  End of SECTION SCREENS  ======*/
+
+/*====================================
+=            SECTION MADE            =
+====================================*/
+
+#section-made .text p
+{
+    color: #363F54;
+}
+#section-made .text:after
+{
+    background-color: #CF0A2D;
+}
+#section-made .li-el .el
+{
+    color: #CF0A2D;
+}
+
+/*=====  End of SECTION MADE  ======*/
