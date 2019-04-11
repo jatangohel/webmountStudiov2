@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+	#container-general > .container-text
+	{
+		top: 150px;
+	}
+	#container-wrapper .wrapper.left
+	{
+		width: 30%;
+	}
+	#container-wrapper .wrapper.right
+	{
+		width: 70%;
+		padding-top: 300px;
+	}
+	#container-wrapper .wrapper.right .desc
+	{
+		text-align: left;
+
+	}
+}
+@media screen and (max-width: 900px) {
+
+	#container-general > .container-text
+	{
+		top: 200px;
+		left: 25px;
+		transform: translateX(0px);
+	}
+
+	#container-general > .container-text h1
+	{
+		color: #FFF;
+		padding-left: 0px;
+		font-size: 38px;
+		line-height: 45px;
+	}
+	#container-general > .container-text h1:before
+	{
+		left: 0px;
+		height: 3px;
+		top: initial;
+		bottom: calc(100% + 25px);
+		width: 30px;
+		background-color: #FFF;
+	}
+	#container-general > .container-text p
+	{
+		display: block;
+	}
+	#container-wrapper .wrapper.left .illu video
+	{
+		display: none;
+	}
+	#container-wrapper .wrapper.right .desc
+	{
+		display: none;
+	}
+	#container-wrapper .wrapper.left
+	{
+		width: 100%;
+		height: 500px;
+	}
+	#container-wrapper .wrapper.right
+	{
+		width: 100%;
+		height: auto;
+		padding: 40px 30px 40px 30px;
+		overflow-x: hidden;
+	}
+	#container-wrapper .wrapper.right form .li-qs .qs
+	{
+		border: none;
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	#container-wrapper .wrapper.right form .li-qs .qs .container-text
+	{
+		width: 100%;
+		padding-right: 0px;
+	}
+	#container-wrapper .wrapper.right form .li-qs .qs .container-input
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+	#container-wrapper .wrapper.right form .container-submit {
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	#lightbox-validation .content img
+	{
+		width: 150px;
+	}
+	#lightbox-validation .content .container-text .line
+	{
+		font-size: 30px;
+	}
+
+}
