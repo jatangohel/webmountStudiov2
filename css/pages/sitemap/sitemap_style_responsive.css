@@ -1,0 +1,35 @@
+@media screen and (max-width: 1300px) {
+	#section-sitemap {
+		width: 610px;
+		margin: 0 140px;
+		flex-direction: column;
+	}
+	#section-sitemap #column-1 {
+		width: 600px;
+	}
+	#section-sitemap #column-2 {
+		width: 600px;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 750px) {
+	#section-sitemap {
+		width: 310px;
+		margin: 0 auto;
+	}
+	#section-sitemap #column-1 {
+		width: 300px;
+	}
+	#section-sitemap #column-2 {
+		width: 300px;
+	}
+	#section-sitemap h2 {
+		margin-top: 50px;
+	}
+	#section-sitemap #column-2 .row-1 .el-projects ul
+	{
+		-moz-column-count: 1;
+	   -webkit-column-count: 1;
+	   column-count: 1;
+	}
+}
