@@ -1,0 +1,139 @@
+@media screen and (max-width: 1700px) {
+
+	#section-screens .wrapper-1 .container-box
+	{
+		top: -3%;
+	    left: -12vw;
+
+	    width: 30%;
+	}
+
+}
+@media screen and (max-width: 1250px) {
+	#section-cover .container-illu {
+		bottom: -300px;
+		right: -200px;
+	}
+	#section-cover .container-illu img {
+		width: 100%;
+	}
+
+	#section-typography:before,
+	#section-screens .wrapper-2:before {
+		width: 100%;
+	}
+	#section-typography .illu {
+		top: -20px;
+	}
+	#section-screens .wrapper-1 .container-screens .container-box
+	{
+		top: -12%;
+		left: -70%;
+	}
+	#section-screens .wrapper-2 .container-obj .obj-1 {
+		width: 150%;
+		right: 40%;
+	}
+
+	#section-screens .wrapper-4 .content .obj-5 {
+		width: 150%;
+    	right: 50%;
+	}
+
+}
+@media screen and (max-width: 750px) {
+	#section-cover
+	{
+		padding-bottom: 0px;
+	}
+	#section-cover .img-cover-bg
+	{
+		height: 30%;
+	}
+	#section-cover .container-illu
+	{
+		position: initial;
+		min-width: auto;
+		width: 100%;
+		top: initial;
+		bottom: 10%;
+    	padding-left: 0%;
+    	right: 0px;
+    	left: initial;
+    	text-align:center;
+	}
+	#section-cover .container-illu img
+	{
+		position:initial;
+	}
+
+	#section-typography .anim-illu
+	{
+		width: 180px;
+		top: -0%;
+		right: 0px;
+		z-index: -1;
+	}
+
+
+
+	#section-colors .container-colors .wrapper
+	{
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+	#section-colors .container-colors .colors
+	{
+		width: 130px;
+		text-align:center;
+	}
+	#section-colors .container-colors .wrapper .colors .img-colors
+	{
+		width:  135%;
+	}
+	#section-colors .container-colors .colors
+	{
+		margin-bottom: 50px;
+	}
+	#section-colors .container-colors .wrapper:nth-child(1) .colors .text,
+	#section-colors .container-colors .wrapper:nth-child(2) .colors .text
+	{
+		margin-left: 0px;
+		margin-top: 10px;
+		text-align:center;
+		width: 100%;
+	}
+
+	#section-colors .container-colors .wrapper:nth-child(2)
+	{
+		margin-top: 30px;
+		width: 100%;
+	}
+	#section-screens .wrapper-1 .container-box
+	{
+		display: none;
+	}
+	#section-screens .wrapper-1 .container-screens .container-box
+	{
+		left: -50%;
+	}
+	#section-screens .wrapper-2:before
+	{
+		width: 100%;
+	}
+
+	#section-screens .wrapper-2 .container-obj
+	{
+		width: 70%;
+		top: 800px;
+	}
+
+	#section-screens .wrapper-4 .container-title
+	{
+		background-color: transparent;
+	}
+	#section-screens .wrapper-4 .content .anim-obj-5
+	{
+		width: 50%;
+	}
+}
