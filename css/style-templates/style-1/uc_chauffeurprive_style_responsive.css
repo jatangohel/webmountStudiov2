@@ -1,0 +1,137 @@
+@media screen and (min-width: 1700px) {
+	
+	#section-cover .container-illu .car
+	{
+		right: 0px;
+	}
+	#section-cover .container-illu
+	{
+		width: 1000px;
+		bottom: 8%;
+	}
+}
+@media screen and (max-width: 1250px) {
+
+	#section-cover .container-illu .car
+	{
+		right: -30%;
+	}
+
+	#section-typography:before {
+		width: 100%;
+	}
+
+	#section-screens .wrapper-2:before {
+		width: 100%;
+	}
+
+	#section-screens .wrapper-4 .content .obj-4 {
+		width: 200px;
+		right: 0%;
+		top:-10%;
+	}
+	#section-screens .wrapper-3 .content .obj-3 {
+	    top: 30%;
+	    right: -16%;
+
+	    width: 40%;
+	}
+}
+@media screen and (max-width: 750px) {
+
+	#section-cover .container-illu
+	{
+		bottom: -8%;
+		left: 0px;
+		min-width: initial;
+		width: 100%;
+		text-align:center;
+	}
+	#section-cover .container-illu .car
+	{
+		right: initial;
+		position:initial;
+		width: 90%;
+	}
+	#section-typography:before
+	{
+		width: 100%;
+	}
+	#section-typography .illu
+	{
+		width:150px;
+		right: -15%;
+    	top: 0%;
+	}
+	#section-typography .illu img
+	{
+		width: 100%;
+	}
+	#section-colors .container-colors .wrapper
+	{
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+	#section-colors .container-colors .colors
+	{
+		width: 100px;
+		margin-bottom: 30px;
+		text-align:center;
+	}
+
+	#section-colors .container-colors .colors .text
+	{
+		display: block;
+		width: 100%;
+		margin-top: 15px;
+	}
+	#section-colors .container-colors .colors .text .ref
+	{
+		transform: translateX(0px);
+	}
+	#section-colors .container-colors .wrapper:nth-child(1) .colors .text,
+	#section-colors .container-colors .wrapper:nth-child(2) .colors .text
+	{
+		margin-left: 0px;
+	}
+	#section-colors .container-colors .wrapper:nth-child(2)
+	{
+		margin-top: 0px;
+	}
+
+	#section-screens .container-screens .obj-1
+	{
+		right: -10%;
+		width: 40%;
+	}
+	#section-screens .container-screens .obj-2
+	{
+		width: 60%;
+		left: -20%;
+	}
+
+	#section-screens .wrapper-2 .container-obj
+	{
+		width: 60%;
+	}
+	#section-screens .wrapper-2 .container-obj .obj-1 {
+		margin-top: 0;
+    	margin-left: 100px;
+    	width: 100%;
+	}
+
+	#section-screens .wrapper-4 .content .obj-4
+	{
+		display: none;
+	}
+	#section-screens .wrapper-4 .content .anim-obj-5
+	{
+		width: 200px;
+	}
+	#section-screens .wrapper-4 .content .anim-obj-6
+	{
+		left: -27%;
+	    width: 100px;
+	    z-index: -1;
+	}
+}
