@@ -1,0 +1,823 @@
+@font-face
+{
+    font-family: GothamRnd-Light;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-1/thoughtspot/GothamRnd-Light.otf);
+}
+@font-face
+{
+    font-family: ProximaNova-Regular;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-1/thoughtspot/ProximaNova-Regular.otf);
+}
+
+/* ------------------------------------------------------------- */
+/* ********************* CONTAINER GENERAL ********************* */
+/* ------------------------------------------------------------- */
+
+#container-general
+{
+    background-color: #202226;
+}
+#container-general:before
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+
+    width: 35%;
+    height: 100%;
+
+    content: '';
+    background: -webkit-linear-gradient(left, rgba(32,34,39,0) 0%,rgba(47,49,57,1) 100%);
+    background:         -webkit-gradient(linear, left top, right top, from(rgba(32,34,39,0)),to(rgba(47,49,57,1)));
+    background:         -o-linear-gradient(left, rgba(32,34,39,0) 0%,rgba(47,49,57,1) 100%);
+    background:         linear-gradient(to right, rgba(32,34,39,0) 0%,rgba(47,49,57,1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#2f3139',GradientType=1 );
+}
+
+/* ----------------------------------------------------------------- */
+/* ********************* END CONTAINER GENERAL ********************* */
+/* ----------------------------------------------------------------- */
+
+/*=====================================
+=            Section COVER            =
+=====================================*/
+
+#section-cover
+{
+    z-index: 2;
+    background-color: #202226;
+}
+#section-cover .img-cover-bg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+}
+#section-cover .img-cover-bg img
+{
+    height: 100%;
+    mix-blend-mode: screen;
+}
+#section-cover .content .container-text .title svg
+{
+    height: 50px;
+
+    fill: #fff;
+}
+#section-cover .content .container-text p
+{
+    color: #fff;
+}
+#section-cover .container-illu
+{
+    top: 25%;
+    right: 5%;
+    bottom: initial;
+}
+#section-cover .container-illu
+{
+    min-width: 600px;
+    max-width: 800px;
+
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
+    text-align: right;
+    
+}
+#section-cover .container-illu img
+{
+    position: relative;
+    right: 15%;
+    width: 65%;
+    transition: all 1s ease;
+    opacity: 0;
+
+}
+#section-cover .container-illu img.anim
+{
+    opacity: 1;
+}
+
+/*=====  End of Section COVER  ======*/
+
+
+/*=======================================
+=            Section DETAILS            =
+=======================================*/
+
+#section-details
+{
+    z-index: 2;
+}
+#section-details .wrapper .container-text-1 .text .pf:after
+{
+    background-color: #ec7358;
+}
+#section-details .wrapper .container-text-1 .text h4
+{
+    color: #fff;
+}
+#section-details .wrapper .container-text-1 .text p
+{
+
+    color: #fc5f45;
+}
+#section-details .wrapper .container-text-1 .link p
+{
+    color: #fff;
+}
+#section-details .wrapper .container-text-1 .link:after
+{
+    background-color: #2884f6;
+}
+
+#section-details .wrapper .container-text-2 .text .pf:after
+{
+    background-color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text h4
+{
+    color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text p
+{
+    color: #fff;
+}
+#section-details .wrapper .container-mission .title
+{
+    background-color: #202226;
+}
+#section-details .wrapper .container-mission .title h5
+{
+    opacity: 1;
+    color: #fff;
+}
+#section-details .wrapper .container-mission .content
+/*#section-details .wrapper .container-mission .content .cdr.cdr-year,*/
+/*#section-details .wrapper .container-mission .content .cdr.cdr-role*/
+{
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#fc5f45), to(#feb960));
+    -webkit-border-image: -webkit-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+         -o-border-image: -o-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+            border-image: -webkit-gradient(linear, left top, right top, from(#fc5f45), to(#feb960));
+            border-image: linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    border-image-slice: 1;
+}
+
+#section-details .wrapper .container-mission .content .cdr.cdr-year
+{
+    border-right-color: #c67756;
+}
+#section-details .wrapper .container-mission .content .cdr.cdr-role
+{
+    border-right-color: #ca845b;
+}
+
+#section-details .wrapper .container-mission .content .cdr .text h6
+{
+    margin-right: 25px;
+
+    color: #fff;
+}
+#section-details .wrapper .container-mission .content .cdr .text p
+{
+    color: #fff;
+}
+
+/*=====  End of Section DETAILS  ======*/
+
+
+
+/*==========================================
+=            Section TYPOGRAPHY            =
+==========================================*/
+
+#section-typography
+{
+    z-index: 2;
+}
+#section-typography:before
+{
+    width: 90%;
+    background: -webkit-linear-gradient(left, rgba(45,47,54,1) 0%,rgba(45,47,54,0) 100%);
+    background:         -webkit-gradient(linear, left top, right top, from(rgba(45,47,54,1)),to(rgba(45,47,54,0)));
+    background:         -o-linear-gradient(left, rgba(45,47,54,1) 0%,rgba(45,47,54,0) 100%);
+    background:         linear-gradient(to right, rgba(45,47,54,1) 0%,rgba(45,47,54,0) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2f36', endColorstr='#002d2f36',GradientType=1 );
+}
+#section-typography.anim-before:before
+{
+    width: 90%;
+
+    opacity: 1;
+}
+#section-typography .anim-illu
+{
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+
+    width: 220px;
+
+}
+#section-typography .illu
+{
+    position: relative;
+    right: inherit;
+
+    width: 100%;
+}
+
+#section-typography .container-title h2
+{
+    background: -webkit-linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    background:         -webkit-gradient(linear, left top, right top, from(#fc5f45), to(#feb960));
+    background:         -webkit-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         -o-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+#section-typography .container-title h2:after
+{
+    background-color: #fa6649;
+}
+#section-typography .container-title p
+{
+    color: #fff;
+}
+#section-typography .container-text h3
+{
+    font-family: GothamRnd-Light;
+
+    color: #fff;
+}
+#section-typography .container-text p
+{
+    font-family: ProximaNova-Regular;
+
+    color: #fff;
+}
+
+
+
+
+/*=====  End of Section TYPOGRAPHY  ======*/
+
+
+/*======================================
+=            Section COLORS            =
+======================================*/
+
+#section-colors
+{
+    z-index: 2;
+}
+#section-colors .container-title h2
+{
+    background: -webkit-linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    background:         -webkit-gradient(linear, left top, right top, from(#fc5f45), to(#feb960));
+    background:         -webkit-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         -o-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+#section-colors .container-title h2:after
+{
+    background-color: #fa6649;
+}
+#section-colors .container-title p
+{
+    color: #fff;
+}
+#section-colors .container-colors .wrapper
+{
+    display:         -webkit-box;
+    display:         -ms-flexbox;
+    display:         flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+#section-colors .container-colors .wrapper:nth-child(2)
+{
+    width: 95%;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#section-colors .container-colors .colors
+{
+    display: inline-block;
+
+    text-align: left;
+}
+#section-colors .container-colors .colors svg
+{
+    display: inline-block;
+
+    vertical-align: bottom;
+}
+#section-colors .container-colors .wrapper .colors .img-colors
+{
+    width: 61%;
+}
+#section-colors .container-colors .wrapper .colors .img-gradient
+{
+    display: inline-block;
+
+    width: 62px;
+    height: 62px;
+
+    border-radius: 50%;
+    -webkit-box-shadow: 0 7px 6px 0 rgba(0,0,0,.10);
+            box-shadow: 0 7px 6px 0 rgba(0,0,0,.10);
+}
+#section-colors .container-colors .wrapper .colors .gradient1
+{
+    background: -webkit-linear-gradient(44.36deg, #fc5f45 0%, #5c9df5 100%);
+    background: -o-linear-gradient(44.36deg, #fc5f45 0%, #5c9df5 100%);
+    background: linear-gradient(45.64deg, #fc5f45 0%, #5c9df5 100%);
+}
+#section-colors .container-colors .wrapper .colors .gradient2
+{
+    background: -webkit-linear-gradient(45.14deg, #fa6649 0%, #feb960 100%);
+    background: -o-linear-gradient(45.14deg, #fa6649 0%, #feb960 100%);
+    background: linear-gradient(44.86deg, #fa6649 0%, #feb960 100%);
+}
+#section-colors .container-colors .wrapper .colors .gradient3
+{
+    background: -webkit-linear-gradient(45.14deg, #4dcaa3 0%, #79b3f0 100%);
+    background: -o-linear-gradient(45.14deg, #4dcaa3 0%, #79b3f0 100%);
+    background: linear-gradient(44.86deg, #4dcaa3 0%, #79b3f0 100%);
+}
+#section-colors .container-colors .wrapper .colors .gradient4
+{
+    background: -webkit-linear-gradient(225.14deg, #5c9df5 0%, #b37ef5 100%);
+    background: -o-linear-gradient(225.14deg, #5c9df5 0%, #b37ef5 100%);
+    background: linear-gradient(224.86deg, #5c9df5 0%, #b37ef5 100%);
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors svg
+{
+    width: 98px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors svg
+{
+    width: 62px;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(1) svg
+{
+    fill: #cf0a2d;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(2) svg
+{
+    fill: #2b2043;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(3) svg
+{
+    fill: #494998;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(1) svg
+{
+    fill: #00d865;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(2) svg
+{
+    fill: #5c5c76;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(3) svg
+{
+    fill: #87929b;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(4) svg
+{
+    fill: #eaeced;
+}
+#section-colors .container-colors .colors .text
+{
+    display: inline-block;
+
+    vertical-align: top;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors .text
+{
+    margin-top: 16px;
+    margin-left: -38px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors .text
+{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#section-colors .container-colors .colors .text .title
+{
+    font-family: National-Bold;
+    font-size: 16px;
+
+    margin-bottom: 5px;
+
+    color: #fff;
+}
+#section-colors .container-colors .colors .text .ref
+{
+    font-family: National-Regular;
+    font-size: 16px;
+
+    opacity: .7;
+    color: #fff;
+}
+
+#section-colors .container-text .text .pf:after
+{
+    background-color: #72adf2;
+}
+#section-colors .container-text .text h4
+{
+    color: #fff;
+}
+#section-colors .container-text .text p
+{
+    color: #72adf2;
+}
+
+
+
+/*=====  End of Section COLORS  ======*/
+
+
+/*=======================================
+=            SECTION SCREENS            =
+=======================================*/
+
+#section-screens
+{
+    z-index: 2;
+}
+#section-screens .bg
+{
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+#section-screens .container-screens .anim-obj-1
+{
+    position: absolute;
+    z-index: 3;
+    top: 36%;
+    right: -13%;
+
+    width: 27%;
+}
+#section-screens .wrapper-1 .container-screens .obj-1
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .container-screens .obj-2
+{
+    z-index: 1;
+    top: 67%;
+    left: -40%;
+
+    width: 66%;
+}
+#section-screens .wrapper-1
+{
+    padding-top: 12%;
+}
+#section-screens .wrapper-1 .bg
+{
+    width: 100%;
+    height: 578px;
+
+    background: -webkit-gradient(linear, left top, left bottom, from(#2d2f35), to(rgba(33,35,39,0)));
+
+    background: -webkit-linear-gradient(top, #2d2f35 0%, rgba(33,35,39,0) 100%);
+
+    background: -o-linear-gradient(top, #2d2f35 0%, rgba(33,35,39,0) 100%);
+
+    background: linear-gradient(180deg, #2d2f35 0%, rgba(33,35,39,0) 100%);
+}
+
+#section-screens .wrapper-1 .container-box
+{
+    position: absolute;
+    z-index: 3;
+    top: -9%;
+    left: -12vw;
+
+    width: 40%;
+}
+
+#section-screens .wrapper-1 .container-box .box
+{
+    width: 100%;
+}
+#section-screens .wrapper-1 .container-box .img-content
+{
+    position: absolute;
+    top: 7%;
+    left: 18%;
+
+    width: 67%;
+}
+#section-screens .wrapper-1 .container-box .img-content .img-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    -webkit-transition: transform 1s cubic-bezier(.500, -.010, .000, 1.005), opacity 3.5s ease;
+         -o-transition: transform 1s cubic-bezier(.500, -.010, .000, 1.005), opacity 3.5s ease;
+            -webkit-transition: opacity 3.5s ease, -webkit-transform 1s cubic-bezier(.500, -.010, .000, 1.005);
+            transition: opacity 3.5s ease, -webkit-transform 1s cubic-bezier(.500, -.010, .000, 1.005);
+            transition: transform 1s cubic-bezier(.500, -.010, .000, 1.005), opacity 3.5s ease;
+            transition: transform 1s cubic-bezier(.500, -.010, .000, 1.005), opacity 3.5s ease, -webkit-transform 1s cubic-bezier(.500, -.010, .000, 1.005);
+}
+#section-screens .wrapper-1 .container-box .img-content .yellow-layer
+{
+    z-index: 3;
+
+    -webkit-transition-duration: 2.5s, 3.5s;
+
+         -o-transition-duration: 2.5s, 3.5s;
+
+            transition-duration: 2.5s, 3.5s;
+    -webkit-transform: translateX(-20%) translateY(-56%);
+        -ms-transform: translateX(-20%) translateY(-56%);
+            transform: translateX(-20%) translateY(-56%);
+
+    opacity: 0;
+
+    -webkit-filter: drop-shadow(-.7vw 1.8vw .9vw rgba(0, 0, 0, .8));
+
+            filter: drop-shadow(-.7vw 1.8vw .9vw rgba(0, 0, 0, .8));
+}
+#section-screens .wrapper-1 .container-box.animLayer .img-content .yellow-layer
+{
+    z-index: 3;
+
+    -webkit-transform: translateY(-26%);
+        -ms-transform: translateY(-26%);
+            transform: translateY(-26%);
+
+    opacity: 1;
+}
+#section-screens .wrapper-1 .container-box .img-content .purple-layer
+{
+    z-index: 2;
+
+    -webkit-transition-duration: 2s, 3.5s;
+
+         -o-transition-duration: 2s, 3.5s;
+
+            transition-duration: 2s, 3.5s;
+    -webkit-transform: translateX(-20%) translateY(-48%);
+        -ms-transform: translateX(-20%) translateY(-48%);
+            transform: translateX(-20%) translateY(-48%);
+
+    opacity: 0;
+
+    -webkit-filter: drop-shadow(-.2vw .9vw .9vw rgba(0, 0, 0, .6));
+
+            filter: drop-shadow(-.2vw .9vw .9vw rgba(0, 0, 0, .6));
+}
+#section-screens .wrapper-1 .container-box.animLayer .img-content .purple-layer
+{
+    z-index: 2;
+
+    -webkit-transform: translateY(-18%);
+        -ms-transform: translateY(-18%);
+            transform: translateY(-18%);
+
+    opacity: 1;
+}
+#section-screens .wrapper-1 .container-box .img-content .blue-layer
+{
+    z-index: 1;
+
+    -webkit-transition-duration: 1.5s, 3.5s;
+
+         -o-transition-duration: 1.5s, 3.5s;
+
+            transition-duration: 1.5s, 3.5s;
+    -webkit-transform: translateX(-20%) translateY(-39%);
+        -ms-transform: translateX(-20%) translateY(-39%);
+            transform: translateX(-20%) translateY(-39%);
+
+    opacity: 0;
+
+    -webkit-filter: drop-shadow(-1vw 1.7vw .9vw rgba(0, 0, 0, .9));
+
+            filter: drop-shadow(-1vw 1.7vw .9vw rgba(0, 0, 0, .9));
+}
+#section-screens .wrapper-1 .container-box.animLayer .img-content .blue-layer
+{
+    z-index: 1;
+
+    -webkit-transform: translateY(-9%);
+        -ms-transform: translateY(-9%);
+            transform: translateY(-9%);
+
+    opacity: 1;
+}
+#section-screens .wrapper-1 .container-box .img-content .green-layer
+{
+    -webkit-transform: translateX(-20%) translateY(-30%);
+        -ms-transform: translateX(-20%) translateY(-30%);
+            transform: translateX(-20%) translateY(-30%);
+
+    opacity: 0;
+
+    -webkit-filter: drop-shadow(-.5vw 2vw .9vw rgba(0, 0, 0, .9));
+
+            filter: drop-shadow(-.5vw 2vw .9vw rgba(0, 0, 0, .9));
+}
+#section-screens .wrapper-1 .container-box.animLayer .img-content .green-layer
+{
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    opacity: 1;
+}
+#section-screens .wrapper-1 .container-box .img-content .layer
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .wrapper-2:before
+{
+    width: 90%;
+    background-color: #2d2f35;
+}
+#section-screens .wrapper-2 .container-title h2
+{
+    background: -webkit-linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    background:         -webkit-gradient(linear, left top, right top, from(#fc5f45), to(#feb960));
+    background:         -webkit-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         -o-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+#section-screens .wrapper-2 .container-title h2:after
+{
+    background-color: #fa6649;
+}
+#section-screens .wrapper-2 .container-title p
+{
+    color: #fff;
+}
+#section-screens .wrapper-2 .content .container-text h3
+{
+    color: #fff;
+}
+#section-screens .wrapper-2 .content .container-text p
+{
+    color: #fff;
+}
+#section-screens .wrapper-2 .container-obj
+{
+    top: 35%;
+    right: 0;
+
+    overflow: hidden;
+
+    width: 40%;
+}
+#section-screens .wrapper-2 .container-obj .obj-1
+{
+    position: relative;
+    right: -19%;
+
+    width: 100%;
+}
+
+
+#section-screens .wrapper-3 .content .obj-3
+{
+    top: 10%;
+    right: -50%;
+
+    width: 70%;
+}
+#section-screens .wrapper-4 .container-text p
+{
+    color: #FFF;
+}
+#section-screens .wrapper-3 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-3 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-3 .container-title p
+{
+    color: #363f54;
+}
+
+#section-screens .wrapper-4 .container-title h2
+{
+    background: -webkit-linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    background:         -webkit-gradient(linear, left top, right top, from(#fc5f45), to(#feb960));
+    background:         -webkit-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         -o-linear-gradient(left, #fc5f45 0%, #feb960 100%);
+    background:         linear-gradient(90deg, #fc5f45 0%, #feb960 100%);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+#section-screens .wrapper-4 .container-title h2:after
+{
+    background-color: #fa6649;
+}
+#section-screens .wrapper-4 .container-title p
+{
+    color: #fff;
+}
+#section-screens .wrapper-4 .container-title
+{
+    background-color: #202226;
+}
+#section-screens .wrapper-4 .content .obj-4
+{
+    top: 0;
+    right: 0;
+
+    width: 25%;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+#section-screens .wrapper-4 .content .anim-obj-5
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 28%;
+
+    -webkit-transform: translate(31.5%, 50%);
+        -ms-transform: translate(31.5%, 50%);
+            transform: translate(31.5%, 50%);
+}
+#section-screens .wrapper-4 .content .obj-5
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .content .obj-6
+{
+    z-index: -1;
+    bottom: 33%;
+    left: -1%;
+
+    width: 18%;
+
+    -webkit-transform: translate(50%, 50%);
+        -ms-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+}
+
+/*=====  End of SECTION SCREENS  ======*/
+
+/*====================================
+=            SECTION MADE            =
+====================================*/
+
+#section-made .text p
+{
+    color: #FFF;
+}
+#section-made .text:after
+{
+    background-color: #FC5F45;
+}
+#section-made .li-el .el
+{
+    color: #FC5F45;
+}
+
+/*=====  End of SECTION MADE  ======*/
