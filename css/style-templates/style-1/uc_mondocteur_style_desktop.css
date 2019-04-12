@@ -1,0 +1,850 @@
+@font-face
+{
+    font-family: Lato-Bold;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-1/mondocteur/Lato-Bold.ttf);
+}
+@font-face
+{
+    font-family: Lato-Regular;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-1/mondocteur/Lato-Regular.ttf);
+}
+
+
+/*=====================================
+=            Section COVER            =
+=====================================*/
+
+#section-cover:before
+{
+    background-color: #FF6C75;
+}
+#section-cover .cross {
+	position: absolute;
+	top: 0;
+    width: 100%;
+    height: 100%;
+}
+#section-cover .cross .up {
+	position: absolute;
+	width: 200px;
+    top: -21%;
+    left: 10%;
+}
+#section-cover .cross .down {
+	position: absolute;
+	width: 300px;
+	top: 63%;
+    left: 80%;
+}
+#section-cover .content .container-text .title svg
+{
+    height: 50px;
+
+    fill: #fff;
+}
+#section-cover .content .container-text p
+{
+    color: #fff;
+}
+#section-cover .container-illu
+{
+    top: 15%;
+    right: 0;
+
+    min-width: 600px;
+    max-width: 800px;
+}
+#section-cover .container-illu img
+{
+    position:relative;
+    right: 0;
+    -webkit-transition: transform 1.5s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease;
+         -o-transition: transform 1.5s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease;
+            -webkit-transition: opacity 1.8s ease, -webkit-transform 1.5s cubic-bezier(.390, .575, .565, 1.000);
+            transition: opacity 1.8s ease, -webkit-transform 1.5s cubic-bezier(.390, .575, .565, 1.000);
+            transition: transform 1.5s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease;
+            transition: transform 1.5s cubic-bezier(.390, .575, .565, 1.000), opacity 1.8s ease, -webkit-transform 1s cubic-bezier(.390, .575, .565, 1.000);
+    -webkit-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+            transform: translateX(10%);
+
+    opacity: 0;
+}
+#section-cover .container-illu .screen
+{  
+    margin-left: -100px;
+    width: 770px;
+    -webkit-transition-delay: 1s;
+         -o-transition-delay: 1s;
+            transition-delay: 1s;
+}
+#section-cover .container-illu .keyboard
+{
+    position: absolute;
+    width: 380px;
+    left: -35px;
+    bottom: -60px;
+
+    -webkit-transition-delay: 0.2s;
+         -o-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+}
+#section-cover .container-illu .mouse
+{
+    position: absolute;
+    bottom: -90px;
+    left: 300px;
+    width: 100px;
+    
+    -webkit-transition-delay: 0.6s;
+         -o-transition-delay: 0.6s;
+            transition-delay: 0.6s;
+}
+#section-cover .container-illu.anim img
+{
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
+
+    opacity: 1;
+}
+
+/*=====  End of Section COVER  ======*/
+
+/*=======================================
+=            Section DETAILS            =
+=======================================*/
+
+#section-details .wrapper .container-text-1 .text .pf:after
+{
+    background-color: #FF6C75;
+}
+#section-details .wrapper .container-text-1 .text h4
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .text p
+{
+    color: #FF6C75;
+}
+#section-details .wrapper .container-text-1 .link p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .link:after
+{
+    background-color: #2884f6;
+}
+
+#section-details .wrapper .container-text-2 .text .pf:after
+{
+    background-color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text h4
+{
+    color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .title h5
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content,
+#section-details .wrapper .container-mission .content .cdr.cdr-year,
+#section-details .wrapper .container-mission .content .cdr.cdr-role
+{
+    border-color: #d6d6d6;
+}
+#section-details .wrapper .container-mission .content .cdr .text h6
+{
+    margin-right: 25px;
+
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content .cdr .text p
+{
+    color: #363f54;
+}
+
+/*=====  End of Section DETAILS  ======*/
+
+/*==========================================
+=            Section TYPOGRAPHY            =
+==========================================*/
+
+
+#section-typography:before
+{
+    width: 90%;
+    background-color: #F5F5F5;
+}
+#section-typography .illu
+{
+	width: 360px;
+    position: absolute;
+    top: 0;
+    right: calc(10% - 55px);
+    -webkit-transition-delay: 0.2s !important;
+    -o-transition-delay: 0.2s !important;
+       transition-delay: 0.2s !important;
+    display: flex;
+    justify-content: space-between;
+}
+#section-typography .illu.anim {
+    -webkit-transform: translateY(-50%) !important;
+        -ms-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+}
+#section-typography .illu img
+{
+    width: 60px;
+    margin-right: 7%;
+    transform: translateY(50px);
+    opacity: 0;
+    -webkit-transition: all 1500ms cubic-bezier(0.000, 0.785, 0.000, 1.000); 
+         -o-transition: all 1500ms cubic-bezier(0.000, 0.785, 0.000, 1.000); 
+            transition: all 1500ms cubic-bezier(0.000, 0.785, 0.000, 1.000);
+}
+#section-typography .illu img:last-child
+{
+    width: 90px;
+}
+#section-typography.anim .illu img
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+#section-typography.anim .illu img:nth-child(1)
+{
+    transition-delay: 0.2s
+}
+#section-typography.anim .illu img:nth-child(2)
+{
+    transition-delay: 0.4s
+}
+#section-typography.anim .illu img:nth-child(3)
+{
+    transition-delay: 0.6s
+}
+#section-typography.anim .illu img:nth-child(4)
+{
+    transition-delay: 0.8s
+}
+#section-typography .container-title h2
+{
+    color: #363f54;
+}
+#section-typography .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-typography .container-title p
+{
+    color: #363f54;
+}
+#section-typography .container-text h3
+{
+    font-family: Lato-Bold;
+
+    color: #363f54;
+}
+#section-typography .container-text p
+{
+    font-family: Lato-Regular;
+
+    color: #363f54;
+}
+
+/*=====  End of Section TYPOGRAPHY  ======*/
+
+/*======================================
+=            Section COLORS            =
+======================================*/
+
+#section-colors .container-title h2
+{
+    color: #363f54;
+}
+#section-colors .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-colors .container-title p
+{
+    color: #363f54;
+}
+#section-colors .container-colors .wrapper
+{
+    display:         -webkit-box;
+    display:         -ms-flexbox;
+    display:         flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+#section-colors .container-colors .wrapper:nth-child(2)
+{
+    margin-top: 100px;
+}
+#section-colors .container-colors .colors
+{
+    display: flex;
+}
+#section-colors .container-colors .colors svg
+{
+    display: inline-block;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors svg
+{
+    width: 98px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors svg
+{
+    width: 62px;
+}
+#section-colors .container-colors .colors .text
+{
+    display: inline-block;
+
+    vertical-align: bottom;
+    margin-left: 13px;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors .text
+{
+    margin-left: 13px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors .text
+{
+    margin-left: 23px;
+}
+
+#section-colors .container-colors .colors .text .title
+{
+    font-family: National-Bold;
+    font-size: 16px;
+
+    margin-bottom: 5px;
+
+    color: #202020;
+}
+#section-colors .container-colors .colors .text .ref
+{
+    font-family: National-Regular;
+    font-size: 16px;
+
+    opacity: .7;
+    color: #202020;
+}
+
+#section-colors .container-text .text .pf:after
+{
+    background-color: #363f54;
+}
+#section-colors .container-text .text h4
+{
+    color: #363f54;
+}
+#section-colors .container-text .text p
+{
+    color: #FF6C75;
+}
+
+
+/*=====  End of Section COLORS  ======*/
+
+/*=======================================
+=            SECTION SCREENS            =
+=======================================*/
+
+#section-screens .bg
+{
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+#section-screens .container-screens .obj-1
+{
+    z-index: -1;
+    top: -6.6%;
+    left: -10.6%;
+
+    width: 29%;
+    transform: rotate(3deg);
+}
+#section-screens .container-screens .obj-2
+{
+    z-index: -1;
+    top: 15.75%;
+    right: -8.5%;
+    
+    width: 27%;
+    transform: rotate(4deg);
+}
+#section-screens .container-screens .obj-3
+{
+	position: absolute;
+	z-index: -1;
+    top: 20%;
+    left: -26%;
+    width: 30%;
+}
+#section-screens .container-screens .obj-4
+{
+	position: absolute;
+	z-index: -1;
+    top: 58%;
+    right: -22%;
+    
+    width: 35%;
+    transform: rotate(187deg);
+}
+
+#section-screens .wrapper-1 {
+    padding-top: 12%;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 2s;
+}
+#section-screens .wrapper-1.anim {
+    opacity: 1;
+    transform: translateY(0);
+}
+#section-screens .wrapper-2 {
+    margin-top: 0;
+}
+#section-screens .wrapper-2:before
+{
+    width: 90%;
+    background-color: #F5F5F5;
+}
+
+#section-screens .wrapper-2 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-2 .container-title p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .content .container-text h3
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .content .container-text p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .container-screens .back-blue
+{
+	position: absolute;
+	width: 1000%;
+	height: 17.1%;
+	background-color: #224E97;
+
+	z-index: 0;
+    top: 63%;
+    left: 90%;
+}
+
+#section-screens .wrapper-2 .container-obj
+{
+	width: 300px;
+    top: 59.5%;
+    left: 75%;
+}
+#section-screens .wrapper-2 .container-screens .obj-2 {
+	position: absolute;
+	width: 40%;
+    z-index: 0;
+
+    top: 0;
+    right: -22%;
+}
+#section-screens .wrapper-2 .container-screens .obj-3 {
+	position: absolute;
+	width: 40%;
+    z-index: 0;
+
+    top: 65%;
+    left: -21%;
+    transform: rotate(-3deg);
+}
+
+#section-screens .wrapper-3 .content .obj-3.one
+{
+    top: 5%;
+    right: -35%;
+
+    width: 40%;
+}
+#section-screens .wrapper-3 .content .obj-3.two {
+	width: 55%;
+    top: 70%;
+    left: -32%;
+}
+#section-screens .wrapper-3 .content .obj-3.three {
+	width: 30%;
+	top: 88%;
+	right: -20%;
+}
+#section-screens .wrapper-3 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-3 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-3 .container-title p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-3 .content .screen-4.two, 
+#section-screens .wrapper-3 .content .screen-4.three, 
+#section-screens .wrapper-3 .content .screen-4.four {
+	margin-top: 15% !important;
+} 
+
+#section-screens .wrapper-4 .container-text p
+{
+    color: #363F54;
+}
+#section-screens .wrapper-4 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-4 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-4 .container-title p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-4 .content .screen-5.two {
+	margin-top: 15%;
+}
+#section-screens .wrapper-4 .content .anim-obj-5
+{
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+    bottom: 28%;
+    width: 30%;
+
+    -webkit-transform: translate(50%, 50%);
+        -ms-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+}
+#section-screens .wrapper-4 .content .anim-obj-5 img {
+	width: 70%;
+}
+#section-screens .wrapper-4 .content .anim-obj-6
+{
+    position: absolute;
+    z-index: -1;
+    bottom: 60%;
+    left: -12%;
+    width: 30%;
+
+    -webkit-transform: translate(50%, 50%);
+        -ms-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+}
+#section-screens .wrapper-4 .content .obj-6
+{
+    position: relative;
+
+    width: 100%;
+}
+
+/*=====  End of SECTION SCREENS  ======*/
+
+/*===================================
+=            SECTION PTC            =
+===================================*/
+
+.sectionPtc
+{
+	position: relative;
+}
+.sectionPtcWrapperG
+{
+	width: 1200px;
+	padding: 90px 0% 90px 0%;
+	margin: auto;
+	display: flex;
+    justify-content: center;
+}
+.sectionPtc-wrapperContainerText
+{
+	position: relative;
+	z-index: 1;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.sectionPtc-containerText
+{
+	display: inline-block;
+	width: 280px;
+	text-align: right;
+}
+.sectionPtc-containerText h2
+{
+	font-size: 38px;
+	font-family:HelveticaNeue-Thin;
+	margin-bottom: 50px;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: transform 0.75s cubic-bezier(0.045, 0.855, 0.100, 0.955), opacity 0.35s ease;
+	transition-delay: 0s;
+}
+.sectionPtc-containerText.show h2
+{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.sectionPtc-containerText h2 strong
+{
+	font-family:HelveticaNeue-Bold;
+}
+.sectionPtc-containerText > p
+{
+	color: #797979;	
+	font-family:HelveticaNeue-Light;
+	font-size: 16px;	
+	line-height: 26px;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: transform 0.75s cubic-bezier(0.045, 0.855, 0.100, 0.955), opacity 0.35s ease;
+	transition-delay: 0.1s;
+}
+.sectionPtc-containerText.show > p
+{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.sectionPtc-containerText .btn
+{
+	display: inline-block;		
+	border-radius: 6px;	
+	background-color: #FF6C75;
+	padding: 15px 25px 15px 25px;
+	margin-top: 60px;
+	cursor: pointer;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: transform 0.75s cubic-bezier(0.045, 0.855, 0.100, 0.955), opacity 0.35s ease;
+	transition-delay: 0.2s;
+}
+.sectionPtc-containerText.show .btn
+{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.sectionPtc-containerText.show .btn:hover
+{
+	opacity: 0.8;
+}
+.sectionPtc-containerText .btn p
+{
+	color: #FFFFFF;	
+	font-family:HelveticaNeue-Bold;	
+	font-size: 12px;
+}
+.sectionPtc-containerCdr
+{
+	width: 60%;
+	display: inline-block;
+	vertical-align: middle;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.sectionPtc-containerCdr-cdr
+{
+	width: calc(50% - 15px);
+	height: 240px;
+	position: relative;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: transform 0.75s cubic-bezier(0.045, 0.855, 0.100, 0.955), opacity 0.35s ease;
+}
+.sectionPtc-containerCdr-cdr:nth-child(1)
+{
+	transition-delay: 0s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(2)
+{
+	transition-delay: 0.1s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(3)
+{
+	transition-delay: 0.2s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(4)
+{
+	transition-delay: 0.3s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(5)
+{
+	transition-delay: 0.4s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(6)
+{
+	transition-delay: 0.5s;
+}
+.sectionPtc-containerCdr-cdr.show
+{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.sectionPtc-containerCdr-cdr:last-child
+{
+	margin-left: auto;
+}
+.sectionPtc-containerCdr-cdr:before
+{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	transition: all 0.25s ease;
+}
+.sectionPtc-containerCdr-cdr:nth-child(1):before
+{
+	background-color: #1E4E9C;
+}
+.sectionPtc-containerCdr-cdr:nth-child(2):before
+{
+	background-color: #69D7BF;
+}
+.sectionPtc-containerCdr-cdr:nth-child(3):before
+{
+	background-color: #C9C9C7;
+}
+.sectionPtc-containerCdr-cdr:nth-child(4):before
+{
+	background-color: #2F2F2F;
+}
+.sectionPtc-containerCdr-cdr:nth-child(5):before
+{
+	background-color: #FF6C75;
+}
+.sectionPtc-containerCdr-cdr:nth-child(6):before
+{
+	background-color: #FFBA01;
+}
+.sectionPtc-containerCdr-cdr:hover:before
+{
+	transform: scale(1.05);
+}
+.sectionPtc-containerCdr-cdr-content
+{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	-webkit-transform: translateY(-50%) scale(0.8);
+	transform: translateY(-50%) scale(0.8);
+	transition: all 0.75s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(1) .sectionPtc-containerCdr-cdr-content
+{
+	transition-delay: 0s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(2) .sectionPtc-containerCdr-cdr-content
+{
+	transition-delay: 0.1s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(3) .sectionPtc-containerCdr-cdr-content
+{
+	transition-delay: 0.2s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(4) .sectionPtc-containerCdr-cdr-content
+{
+	transition-delay: 0.3s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(5) .sectionPtc-containerCdr-cdr-content
+{
+	transition-delay: 0.4s;
+}
+.sectionPtc-containerCdr-cdr:nth-child(6) .sectionPtc-containerCdr-cdr-content
+{
+	transition-delay: 0.5s;
+}
+.sectionPtc-containerCdr-cdr.show .sectionPtc-containerCdr-cdr-content
+{
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.sectionPtc-containerCdr-cdr-content-text
+{
+	width: 50%;
+	padding: 0px 0% 0px 10%;
+}
+.sectionPtc-containerCdr-cdr-content-text p
+{
+	color: #FFFFFF;	
+	font-family:HelveticaNeue-Bold;
+	font-size: 16px;
+	line-height: 20px;
+}
+.sectionPtc-containerCdr-cdr-content .icn
+{
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.sectionPtc-containerCdr-cdr-content .icn img
+{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+
+/*=====  End of SECTION PTC  ======*/
+
+
+/*====================================
+=            SECTION MADE            =
+====================================*/
+
+#section-made .text p
+{
+    color: #363F54;
+}
+#section-made .text:after
+{
+    background-color: #FF6C75;
+}
+#section-made .li-el .el
+{
+    color: #FF6C75;
+}
+
+/*=====  End of SECTION MADE  ======*/
