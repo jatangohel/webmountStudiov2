@@ -1,0 +1,390 @@
+@font-face
+{
+    font-family: MyriadPro-Regular;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-3/uc-orange/MyriadPro-Regular.otf);
+}
+/*=====================================
+=            SECTION COVER            =
+=====================================*/
+
+#section-cover:before
+{
+    background-image: -webkit-gradient(linear, left top, right top, from(#F0613C), to(#F0783C));
+    background-image: -webkit-linear-gradient(left, #F0613C 0%, #F0783C 100%);
+    background-image: -o-linear-gradient(left, #F0613C 0%, #F0783C 100%);
+    background-image: linear-gradient(to right, #F0613C 0%, #F0783C 100%);
+}
+#section-cover .content .container-text .title svg
+{
+    height: 40px;
+
+    fill: #fff;
+}
+#section-cover .content .container-text p
+{
+    color: #fff;
+}
+
+#section-cover .container-illu
+{
+    position: absolute;
+    width: 60%;
+    max-width: 780px;
+    bottom: 5%;
+}
+#section-cover .container-illu img
+{
+    width: 100%;
+    opacity: 0;
+    transition: all 0.75s ease;
+    transition-delay: 0.5s;
+}
+#section-cover.anim .container-illu img
+{
+    opacity: 1;
+}
+
+/*=====  End of SECTION COVER  ======*/
+
+
+/*=======================================
+=            Section DETAILS            =
+=======================================*/
+
+#section-details .wrapper .container-text-1 .text .pf:after
+{
+    background-color: #FD8355;
+}
+#section-details .wrapper .container-text-1 .text h4
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .text p
+{
+    color: #FD8355;
+}
+#section-details .wrapper .container-text-1 .link p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .link:after
+{
+    background-color: #2884F6;
+}
+
+#section-details .wrapper .container-text-2 .text .pf:after
+{
+    background-color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text h4
+{
+    color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .title h5
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content,
+#section-details .wrapper .container-mission .content .cdr.cdr-year,
+#section-details .wrapper .container-mission .content .cdr.cdr-role
+{
+    border-color: #d6d6d6;
+}
+#section-details .wrapper .container-mission .content .cdr .text h6
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content .cdr .text p
+{
+    color: #363f54;
+}
+
+/*=====  End of Section DETAILS  ======*/
+
+/*==========================================
+=            Section TYPOGRAPHY            =
+==========================================*/
+
+
+#section-typography:before
+{
+    width: 90%;
+    background-color: #eaeced;
+}
+#section-typography .illu
+{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+}
+#section-typography .illu img
+{
+    width: 70px;
+    transform: translateY(50px);
+    opacity: 0;
+    -webkit-transition: all 1500ms cubic-bezier(0.000, 0.785, 0.000, 1.000); 
+         -o-transition: all 1500ms cubic-bezier(0.000, 0.785, 0.000, 1.000); 
+            transition: all 1500ms cubic-bezier(0.000, 0.785, 0.000, 1.000);
+}
+#section-typography.anim .illu img
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+#section-typography.anim .illu img:nth-child(1)
+{
+    transition-delay: 0.1s
+}
+#section-typography.anim .illu img:nth-child(2)
+{
+    transition-delay: 0.2s
+}
+#section-typography.anim .illu img:nth-child(3)
+{
+    transition-delay: 0.3s
+}
+#section-typography.anim .illu img:nth-child(4)
+{
+    transition-delay: 0.4s
+}
+#section-typography.anim .illu img:nth-child(5)
+{
+    transition-delay: 0.5s
+}
+#section-typography .container-title h2
+{
+    color: #363f54;
+}
+#section-typography .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-typography .container-title p
+{
+    color: #363f54;
+}
+#section-typography .container-text h3
+{
+    font-family: MyriadPro-Regular;
+
+    color: #363f54;
+}
+#section-typography .container-text p
+{
+    font-family: MyriadPro-Regular;
+
+    color: #363f54;
+}
+
+/*=====  End of Section TYPOGRAPHY  ======*/
+
+
+
+/*======================================
+=            Section COLORS            =
+======================================*/
+
+#section-colors .container-title h2
+{
+    color: #363f54;
+}
+#section-colors .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-colors .container-title p
+{
+    color: #363f54;
+}
+
+#section-colors .container-text .text .pf:after
+{
+    background-color: #FD8355;
+}
+#section-colors .container-text .text h4
+{
+    color: #363f54;
+}
+#section-colors .container-text .text p
+{
+    color:#FD8355;
+}
+
+#section-colors .container-colors { 
+    display:         -webkit-box;
+    display:         -ms-flexbox;
+    display:         flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+
+#section-colors .container-colors .wrapper:nth-child(1) .text {
+    margin-left: 125px;
+    margin-top: -115px;
+    margin-bottom: 35px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(2) .text {
+    margin-left: 85px;
+    margin-top: -135px;
+    margin-bottom: 40px;
+}
+
+#section-colors .container-colors .wrapper .text .title {
+    color: #363F54; 
+    font-family: National-Bold;
+    font-size: 14px;    
+    font-weight: bold;  
+    line-height: 17px;
+}
+
+#section-colors .container-colors .wrapper .text .ref {
+    opacity: 0.7;   
+    color: #363F54; 
+    font-family: National-Regular;
+    font-size: 16px;    
+    line-height: 24px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(2) {
+    margin-left: 145px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(3) {
+    margin-left: 290px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(1) {
+    margin-left: -190px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(2) {
+    margin-left: -95px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(3) {
+    margin-left: 5px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(4) {
+    margin-left: 105px;
+}
+
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(1) svg
+{
+    fill: #f1783d;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(2) svg
+{
+    fill: #3f434d;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(3) svg
+{
+    fill: #a5a5a5;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(1) svg
+{
+    fill: #abd036;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(2) svg
+{
+    fill: #50abf1;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(3) svg
+{
+    fill: #ff5757;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(4) svg
+{
+    fill: #fccf26;
+}
+
+/*=====  End of Section COLORS  ======*/
+
+
+/*=============================================
+=            SECTION MULTISCREENS             =
+=============================================*/
+
+#section-multiscreens:before
+{
+    background-color: #EC723B;
+}
+#section-multiscreens .container-title h2
+{
+    color: #FFF;
+}
+#section-multiscreens .container-title h2:after
+{
+    background-color: #FFF;
+}
+#section-multiscreens .container-title p
+{
+    color: #FFF;
+}
+#section-multiscreens .content .container-text h3
+{
+    color: #FFF;
+}
+#section-multiscreens .content .container-text p
+{
+    color: #FFF;
+}
+#section-multiscreens .container-slides > .btn {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#section-multiscreens .container-slides > .btn .arrow,
+#section-multiscreens .container-slides > .btn .progress circle {
+    fill: #FFF;
+    stroke: #FFF;
+}
+#section-multiscreens .content .container-phone:before {
+    height: 62%;
+}
+
+
+/*=====  End of SECTION MULTISCREENS   ======*/
+
+
+/*=============================================
+=             SECTION MULTIMOCKUP              =
+=============================================*/
+
+
+#section-multimockup .container-title h2
+{
+    color: #363f54;
+}
+#section-multimockup .container-title h2:after
+{
+    background-color: #363f54;
+}
+
+
+/*=====  End of SECTION MULTIMOCKUP   ======*/
+
+/*====================================
+=            SECTION MADE            =
+====================================*/
+
+#section-made .text p
+{
+    color: #363F54;
+}
+#section-made .text:after
+{
+    background-color: #FD8355;
+}
+#section-made .li-el .el
+{
+    color: #FD8355;
+}
+
+/*=====  End of SECTION MADE  ======*/
