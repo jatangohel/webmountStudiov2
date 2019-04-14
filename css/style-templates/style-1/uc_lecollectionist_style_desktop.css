@@ -1,0 +1,634 @@
+@font-face
+{
+    font-family: Caslon-becker-graphique;
+
+    src: url(https://www.agence-me.com/AgenceMeV4/fonts/font-templates/style-1/lecollectionist/Caslon-becker-graphique.ttf);
+}
+/*=====================================
+=            Section COVER            =
+=====================================*/
+
+#section-cover:before
+{
+    background: -webkit-gradient(linear, right top, left top, from(#faf0e7), to(#efe5dc));
+    background: -webkit-linear-gradient(right, #faf0e7 0%, #efe5dc 100%);
+    background: -o-linear-gradient(right, #faf0e7 0%, #efe5dc 100%);
+    background: linear-gradient(270deg, #faf0e7 0%, #efe5dc 100%);
+}
+#section-cover .content .container-text .title svg
+{
+    height: 30px;
+
+    fill: #fff;
+}
+#section-cover .content .container-text p
+{
+    color: #363f54;
+}
+#section-cover .container-illu
+{
+    min-width: 600px;
+    max-width: 790px;
+
+    -webkit-transform: translateY(12%);
+        -ms-transform: translateY(12%);
+            transform: translateY(12%);
+
+    mix-blend-mode: multiply;
+    
+}
+#section-cover .container-illu img
+{
+    width: 100%;
+    transition: all 1s ease;
+    opacity: 0;
+}
+#section-cover .container-illu img.anim
+{
+    width: 100%;
+    opacity: 1;
+}
+
+/*=====  End of Section COVER  ======*/
+
+
+/*=======================================
+=            Section DETAILS            =
+=======================================*/
+
+#section-details .wrapper .container-text-1 .text .pf:after
+{
+    background-color: #dbbc90;
+}
+#section-details .wrapper .container-text-1 .text h4
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .text p
+{
+    color: #dbbc90;
+}
+#section-details .wrapper .container-text-1 .link p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-text-1 .link:after
+{
+    background-color: #2884f6;
+}
+
+#section-details .wrapper .container-text-2 .text .pf:after
+{
+    background-color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text h4
+{
+    color: #2884f6;
+}
+#section-details .wrapper .container-text-2 .text p
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .title h5
+{
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content,
+#section-details .wrapper .container-mission .content .cdr.cdr-year,
+#section-details .wrapper .container-mission .content .cdr.cdr-role
+{
+    border-color: #d6d6d6;
+}
+#section-details .wrapper .container-mission .content .cdr .text h6
+{
+    margin-right: 25px;
+
+    color: #363f54;
+}
+#section-details .wrapper .container-mission .content .cdr .text p
+{
+    color: #363f54;
+}
+
+/*=====  End of Section DETAILS  ======*/
+
+
+/*==========================================
+=            Section TYPOGRAPHY            =
+==========================================*/
+
+#section-typography:before
+{
+    width: 90%;
+    background-color: #f7f5f2;
+}
+#section-typography .anim-illu
+{
+    position: absolute;
+    z-index: 1;
+    top: -2vw;
+    right: 5%;
+
+    width: 30vw;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+    opacity: 1;
+}
+#section-typography .illu
+{
+    position: absolute;
+    z-index: 1;
+    top: -2vw;
+    right: 5%;
+
+    width: 30vw;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+}
+#section-typography .illu .img-boat
+{
+    width: 100%;
+}
+#section-typography .container-title h2
+{
+    color: #363f54;
+}
+#section-typography .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-typography .container-title p
+{
+    color: #363f54;
+}
+#section-typography .container-text h3
+{
+    font-family: Caslon-becker-graphique;
+
+    color: #363f54;
+}
+#section-typography .container-text p
+{
+    font-family: Helvetica;
+    font-size: 15px;
+
+    color: #363f54;
+}
+
+/*=====  End of Section TYPOGRAPHY  ======*/
+
+
+/*======================================
+=            Section COLORS            =
+======================================*/
+
+#section-colors .container-title h2
+{
+    color: #363f54;
+}
+#section-colors .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-colors .container-title p
+{
+    color: #363f54;
+}
+#section-colors .container-colors
+{
+    padding-bottom: 0px;
+}
+#section-colors .container-colors .wrapper
+{
+    display:         -webkit-box;
+    display:         -ms-flexbox;
+    display:         flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+    width: 90%;
+    margin: auto;
+}
+#section-colors .container-colors .wrapper:nth-child(2)
+{
+    margin-top: 100px;
+}
+
+#section-colors .container-colors .colors
+{
+    display: inline-block;
+
+    width: 30%;
+}
+#section-colors .container-colors .colors .marble
+{
+    display: inline-block;
+}
+#section-colors .container-colors .colors svg
+{
+    display: inline-block;
+
+    vertical-align: bottom;
+}
+#section-colors .container-colors .wrapper .colors .color-marble
+{
+    position: absolute;
+    top: 28%;
+    left: 36%;
+
+    width: 98px;
+    height: 98px;
+
+    border-radius: 50%;
+    -webkit-box-shadow: 0 7px 6px 0 rgba(0,0,0,.10);
+            box-shadow: 0 7px 6px 0 rgba(0,0,0,.10);
+}
+#section-colors .container-colors .wrapper .colors .spring-wood-color
+{
+    background-color: #f7f5f2;
+}
+#section-colors .container-colors .wrapper .colors .pancho-color
+{
+    background-color: #dbbc90;
+}
+#section-colors .container-colors .wrapper .colors .black-color
+{
+    background-color: #202020;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors .marble .img-marble
+{
+    width: 98px;
+}
+
+#section-colors .container-colors .wrapper .colors  .container-img-marble
+{
+    position: relative;
+
+    display: inline-block;
+}
+#section-colors .container-colors .wrapper .colors  .container-img-marble .img-marble
+{
+    width: 98px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors svg
+{
+    width: 98px;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(1) svg
+{
+    fill: #f7f5f2;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(2) svg
+{
+    fill: #dbbc90;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors:nth-child(3) svg
+{
+    fill: #202020;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(1) svg
+{
+    fill: #f7f5f2;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(2) svg
+{
+    fill: #dbbc90;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(3) svg
+{
+    fill: #202020;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors:nth-child(4) svg
+{
+    fill: #eaeced;
+}
+#section-colors .container-colors .colors .text
+{
+    display: inline-block;
+
+    vertical-align: top;
+}
+#section-colors .container-colors .wrapper:nth-child(1) .colors .text
+{
+    margin-top: 8px;
+    margin-left: 13px;
+}
+#section-colors .container-colors .wrapper:nth-child(2) .colors .text
+{
+    margin-left: 23px;
+}
+#section-colors .container-colors .colors .text .title
+{
+    font-family: National-Bold;
+    font-size: 16px;
+
+    margin-bottom: 5px;
+
+    color: #202020;
+}
+#section-colors .container-colors .colors .text .ref
+{
+    font-family: National-Regular;
+    font-size: 16px;
+
+    -webkit-transform: translateX(24px);
+        -ms-transform: translateX(24px);
+            transform: translateX(24px);
+
+    opacity: .7;
+    color: #202020;
+}
+
+#section-colors .container-text .text .pf:after
+{
+    background-color: #363f54;
+}
+#section-colors .container-text .text h4
+{
+    color: #363f54;
+}
+#section-colors .container-text .text p
+{
+    color: #dbbc90;
+}
+
+/*=====  End of Section COLORS  ======*/
+
+
+/*=======================================
+=            SECTION SCREENS            =
+=======================================*/
+#section-screens .wrapper-1
+{
+    padding-top: 20.45%;
+}
+#section-screens .wrapper-1:before
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 10%;
+
+    content: '';
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 31%,rgba(255,255,255,0) 100%);
+    background:         -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)),color-stop(31%, rgba(255,255,255,1)),to(rgba(255,255,255,0)));
+    background:         -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 31%,rgba(255,255,255,0) 100%);
+    background:         linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 31%,rgba(255,255,255,0) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+#section-screens .bg
+{
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+#section-screens .container-screens .anim-obj-1
+{
+    position: absolute;
+    top: 54%;
+    right: 5%;
+
+    width: 22%;
+
+    mix-blend-mode: multiply;
+}
+#section-screens .container-screens .obj-1
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .container-screens .anim-cerf-volant
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+}
+#section-screens .container-screens .anim-chaise
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+}
+#section-screens .container-screens .anim-obj-2
+{
+    position: absolute;
+    z-index: 1;
+    top: 89%;
+    left: 14%;
+    
+    width: 16%;
+}
+#section-screens .container-screens .obj-2
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .container-screens .anim-plongeur
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+#section-screens .wrapper-1 .container-screens .obj-1,
+#section-screens .wrapper-1 .container-screens .obj-2
+{
+    position: relative;
+}
+
+
+#section-screens .wrapper-2:before
+{
+    width: 90%;
+    opacity: 1;
+    background-color: #f7f5f2;
+}
+
+#section-screens .wrapper-2 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-2 .container-title p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .content .container-text h3
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .content .container-text p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-2 .container-obj
+{
+    top: 45%;
+    right: 0;
+
+    width: 30%;
+}
+#section-screens .wrapper-2 .container-obj .anim-boat
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+}
+
+#section-screens .wrapper-3 .content .anim-obj-3
+{
+    position: absolute;
+    top: 31%;
+    right: -30%;
+
+    width: 60%;
+}
+#section-screens .wrapper-3 .content .obj-3
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .container-text p
+{
+    color: #363F54;
+}
+#section-screens .wrapper-3 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-3 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-3 .container-title p
+{
+    color: #363f54;
+}
+
+#section-screens .wrapper-4 .container-title h2
+{
+    color: #363f54;
+}
+#section-screens .wrapper-4 .container-title h2:after
+{
+    background-color: #363f54;
+}
+#section-screens .wrapper-4 .container-title p
+{
+    color: #363f54;
+}
+#section-screens .wrapper-4 .content .anim-obj-4
+{
+    position: absolute;
+    top: -2%;
+    right: -10%;
+
+    width: 40%;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+#section-screens .wrapper-4 .content .obj-4
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .content .anim-ballon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .content .anim-obj-5
+{
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+
+    width: 33%;
+
+    -webkit-transform: translate(50%, 50%);
+        -ms-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+}
+#section-screens .wrapper-4 .content .obj-5
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .content .anim-voiture
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .content .anim-obj-6
+{
+    position: absolute;
+    top: 44%;
+    left: -10%;
+
+    width: 40%;
+}
+#section-screens .wrapper-4 .content .obj-6
+{
+    position: relative;
+
+    width: 100%;
+}
+#section-screens .wrapper-4 .content .screen-5
+{
+    position: relative;
+    z-index: 2;
+}
+
+/*=====  End of SECTION SCREENS  ======*/
+
+/*====================================
+=            SECTION MADE            =
+====================================*/
+
+#section-made .text p
+{
+    color: #363F54;
+}
+#section-made .text:after
+{
+    background-color: #DBBC90;
+}
+#section-made .li-el .el
+{
+    color: #DBBC90;
+}
+
+/*=====  End of SECTION MADE  ======*/
